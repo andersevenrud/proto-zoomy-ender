@@ -1,0 +1,127 @@
+# Hardware
+
+A Cartesian (aka "bed slinger") FFF/FDM 3D printer.
+
+## Specs
+
+* Weight: ~10kg
+* Noise level: <60dB
+* Print Volume: 230x230x250mm
+* Probe Area: 205x220mm
+* Probe Speed: <=10mm/s
+* Probe Accuracy: <0.0020mm
+* Bed Mesh Range: <0.2mm
+* Bed Temperature: 100°C (Max)
+* Chamber Temperature: 70°C (Max)
+* Print Temperature: 280°C (Max)
+* Print Speed: <=200mm/s (Optimal), ~500mm/s (Max)
+* Print Acceleration: <=5000ms/s² (Optimal), ~8000mm/s² (Max)
+* Extruder Acceleration: <=3000mm/s² (Optimal), ~8000mm/s² (Max)
+* Extrusion Force: 10kg (Max)
+* Retraction Speed: ~120mm/s (Max)
+* Volumetric Flow
+  * 20-30mm³/s (0.4mm V6/HF)
+  * 30-50mm³/s (0.6mm Volcano/UHF)
+  * 75mm³/s (Theoretical/Vendor benchmarked)
+* Cooling
+  * Parts: 8.172m³/h (x2)
+  * Hotend: 13.082m³/h
+  * Mainboard: 50.392m³/h
+  * PSU: 50.392m³/h
+* Steppers
+  * X: 1.8°, 55Ncm, 2.50A/Phase (Max)
+  * Y: 1.8°, 55Ncm, 2.50A/Phase (Max)
+  * Z: 1.8°, 55Ncm, 2.50A/Phase (Max)
+  * E: 1.8°, 10Ncm, 1.20A/Phase (Max)
+* Power Draw
+  * Bed: ~220W (Max)
+  * Hotend: ~90W (Max)
+  * Steppers: ~200W (Max)
+  * Total: ~360W (Max), <200W (While printing with PLA settings)
+
+## Parts
+
+> All custom parts was printed in ABS
+
+* **Frame**
+    * Creality stock Extrusions
+    * RatRig Cast 90 Degree Corner brackets
+    * DIY Extrusion end caps
+    * DIY Carrying handle
+    * DIY Raised feet w/anti-vibration (35mm)
+    * DIY Cable drag chains (30deg)
+    * DIY Braces (Stiffeners) on Z axis (8mm rods)
+* **PSU**
+    * Creality stock (Meanwell) 320W 24V Supply
+    * Noctua NF-A8 FLX cooling fan (12V)
+    * DIY ventilated cover and 80mm fan support
+    * DIY 24V -> 12V DC Buck Converter
+        * Custom fan terminal PCB and case
+        * Noctua fan silencer adapters
+* **Mainboard**
+    * BTT SKR E3 v3 Mainboard (TMC2209)
+    * Noctua NF-A8 FLX cooling fan (12V)
+    * Heatsinks on SoC and power converters
+    * DIY ventilated cover and 80mm fan support
+* **Bed**
+    * Creality stock heated aluminum bed
+    * Creativity Silicon solid mounts
+    * Creativity Mini tramming wheels
+    * Creativity Replacement lightweight frame
+    * 3M magnetic surface
+        * Polyalkemi Smooth PEI Sheet
+        * PrimaFlex Textured PEI Sheet
+        * Homemade Probe/Offset/Limit Calibration Sheet
+* **X-Axis**
+    * LDO 42STH48-2504AC stepper
+    * Creativity Aluminum tensioner (w/custom adjuster)
+    * Creality stock endstop switch
+    * HIWIN MGN12H Linear Rail (300mm)
+    * Polisi3D Copper Belt Clamps
+    * Gates Powergrip GT2/6mm Belt
+    * RatRig GT2/6mm 20T/5mm Pulley
+    * RatRig GT2/6mm 20T/5mm Idler
+    * DIY stepper cover and endstop position
+* **Y-Axis**
+    * LDO 42STH48-2504AC stepper
+    * Creativity Aluminum tensioner (w/custom adjuster)
+    * Creativity Linear Rail brackets
+    * Creality stock endstop switch
+    * HIWIN MGN12H Linear Rails (Dual 300mm)
+    * Polisi3D Copper Belt Clamps
+    * Gates Powergrip GT2/6mm Belt
+    * RatRig GT2/6mm 20T/5mm Pulley
+    * RatRig GT2/6mm 20T/5mm Idler
+* **Z-Axis**
+    * LDO 42STH48-2504AC stepper
+    * Generic MGN12H Linear Rails (Dual 300mm)
+    * Polisi3D Copper Belt Clamps
+    * Gates GT2/6mm 188mm Belt Loop
+    * Gates Powergrip GT2/6mm Belt
+    * Gates Powergrip GT2/6mm Idlers
+    * Gates Powergrid GT2/6mm 16T Pulleys
+    * Gates GT2/6mm Belt Tension Springs
+    * Siboor GT2/6mm 80T Gear
+    * Openbuilds brass shims
+    * Powge D shafts
+    * PlusReprap Bearings for gearbox
+    * Custom belt system standoffs/mounts
+* **Toolhead**
+    * LDO Orbiter Extruder (v2)
+    * LDO Orbiter Filament Sensor (v2.2)
+    * Antclabs BLTouch (v3.1)
+    * Capricorn XS PTFE Tubes
+    * Sunon Maglev 4040 heatsink cooling fan
+    * Caizhu 5015 Brushless Dual Ball Bearing parst cooling fan (x2)
+    * Siboor Filament Cleaner Clip
+    * Phaetus Rapido UHF (Volcano/V6)
+      * E3D V6 Nozzle-X 0.4mm (V6)
+      * Phaetus Hardened Steel 0.4mm (V6)
+      * Phaetus Hardened Steel 0.6mm (Volcano)
+* **Display**
+    * Makerbase MKS MINI12864 v3 Display
+        * Custom cable to convert EXT1 on mainboard to EXT1+EXT2 on display [^1] [^2]
+        * DIY Case with angled 4040 extrusion mount
+
+[^1]: https://github.com/bigtreetech/BIGTREETECH-SKR-mini-E3/issues/728#issuecomment-1736805084
+[^2]: https://github.com/makerbase-mks/MKS-MINI12864-V3/blob/main/hardware/Image/MKS_MINI12864_V3_PINOUT.png
