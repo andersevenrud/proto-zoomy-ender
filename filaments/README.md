@@ -22,10 +22,10 @@ Tested optimal values:
 
 | Spool                             | Weight | Misc                                               |
 | --------------------------------- | ------ | -------------------------------------------------- |
-| ProtoPasta HTPLA Cardboard (500g) |   72g  | [Photo](./images/protopasta_cardboard_500g.jpeg)   |
-| eSun Cardboard (1000g)            |  145g  | [Photo](./images/esun_cardboard_1000g.jpeg)        |
-| eSun Plastic (1000g)              |  260g  | [Photo](./images/esun_plastic_1000g.jpeg)          |
-| Creality Clear (1000g)            |  142g  | [Photo](./images/creality_clear_1000g.jpeg)        |
-| Creality Black (1000g)            |  142g  | [Photo](./images/creality_black_1000g.jpeg)        |
-| Clas Ohslon (1000g)               |  138g  | [Photo](./images/clasohlson_1000g.jpeg)            |
-| 3DNet Clear (1000g)               |  204g  | [Photo](./images/3dnet_clear_1000g.jpeg)           |
+| ProtoPasta HTPLA Cardboard (500g) |   72g  | [Photo](./photos/protopasta_cardboard_500g.jpeg)   |
+| eSun Cardboard (1000g)            |  145g  | [Photo](./photos/esun_cardboard_1000g.jpeg)        |
+| eSun Plastic (1000g)              |  260g  | [Photo](./photos/esun_plastic_1000g.jpeg)          |
+| Creality Clear (1000g)            |  142g  | [Photo](./photos/creality_clear_1000g.jpeg)        |
+| Creality Black (1000g)            |  142g  | [Photo](./photos/creality_black_1000g.jpeg)        |
+| Clas Ohslon (1000g)               |  138g  | [Photo](./photos/clasohlson_1000g.jpeg)            |
+| 3DNet Clear (1000g)               |  204g  | [Photo](./photos/3dnet_clear_1000g.jpeg)           |
