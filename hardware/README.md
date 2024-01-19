@@ -10,7 +10,7 @@ A Cartesian (aka "bed slinger") FFF/FDM 3D printer.
 * Probe Area: 205x220mm
 * Probe Speed: <=10mm/s
 * Probe Accuracy: <0.0020mm
-* Bed Mesh Range: <0.2mm
+* Bed Flatness: <0.2mm (Probed range)
 * Bed Temperature: 100°C (Max)
 * Chamber Temperature: 70°C (Max)
 * Print Temperature: 280°C (Max)
