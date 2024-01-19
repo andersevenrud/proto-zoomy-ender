@@ -57,7 +57,7 @@ A Cartesian (aka "bed slinger") FFF/FDM 3D printer.
     * DIY Cable drag chains (30deg)
     * DIY Braces (Stiffeners) on Z axis (8mm rods)
 * **PSU**
-    * Creality stock (Meanwell) 320W 24V Supply
+    * Meanwell LRS-350-24 (24V, 350W)
     * Noctua NF-A8 FLX cooling fan (12V)
     * DIY ventilated cover and 80mm fan support
     * DIY 24V -> 12V DC Buck Converter
