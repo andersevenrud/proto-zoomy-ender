@@ -8,7 +8,8 @@ Main configuration entries customized for my setup.
 
 Example profile:
 
-> Where `P`/`I`/`T` is the target max speed.
+> Where `P(erimiters)`/`I(nfill)`/`T(ravel)`/`S(ides)` is the target max speed.
+> I.e: 200/200/300/30 for a fast profile.
 
 > All acceleration control and values not mentioned are `0` (disabled)
 
@@ -19,7 +20,7 @@ External perimiters: 85% of P
 
 Infill: I
 Solid infill: 85% of I
-Top solid infill: 30
+Top solid infill: S
 
 Support material: 85% of P
 Bridges: 85% of P
@@ -27,7 +28,7 @@ Gap fill: 50% of P
 
 Travel: T
 
-First layer speed: 25
+First layer speed: S
 Max print speed: 300
 Max volumetric flow: 20
 ```
