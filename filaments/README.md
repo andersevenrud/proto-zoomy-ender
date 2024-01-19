@@ -1,5 +1,10 @@
 # Filaments
 
+Personal tuning and parameter tables used in the slicer and firmware.
+
+Retraction, Pressure Advance and Extrusion factors are always set in firmware via macros
+to eliminate the need for re-slicing models for any hardware change.
+
 ## Filament table
 
 Tested optimal values:
