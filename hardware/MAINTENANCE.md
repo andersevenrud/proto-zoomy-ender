@@ -16,7 +16,7 @@ Make sure there are no deep cracks.
 
 > All measurements are done when set at zero position.
 
-* Use printed measurement tool for Z belt
+* Use printed measurement tool for Z belt [^3]
 * Use phone app to measure X axis belt to ~95Hz [^1] [^2]
 * Use phone app to measure Y axis belt to ~115Hz [^1] [^2]
 
@@ -58,3 +58,4 @@ Every **TODO** interval perform a full cleaning procedure:
 
 [^1]: https://benchtopmachineshop.blogspot.com/2019/04/printer-belt-tension.html?m=1
 [^2]: https://www.fxsolver.com/browse/formulas/Frequency+of+a+string+under+tension+%28nth+harmonic%29
+[^3]: https://www.printables.com/model/447036-belt-tension-tester
