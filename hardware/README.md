@@ -23,6 +23,11 @@ A Cartesian (aka "bed slinger") FFF/FDM 3D printer.
   * 20-30mm³/s (0.4mm V6/HF)
   * 30-50mm³/s (0.6mm Volcano/UHF)
   * 75mm³/s (Theoretical/Vendor benchmarked)
+* Motion/Drive Train
+  * X: Belt, Linear Rail
+  * Y: Belt, Dual Linear Rails
+  * Z: Belt, Dual Linear Rails, 80:16 Gearbox
+  * E: Direct Drive, 7.5:1 Gearbox
 * Cooling
   * Parts: 8.172m³/h (x2)
   * Hotend: 13.082m³/h
