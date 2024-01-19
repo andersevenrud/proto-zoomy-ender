@@ -10,13 +10,15 @@
 
 ## Belts
 
-Every 100hrs running time just ensure that belts are firm.
+Every 3-6 month ensure that belts are firm.
 
 Make sure there are no deep cracks.
 
-* Use the measurement tool for Z belt
-* **TODO** Use ? for X belt
-* **TODO** Use ? for Y belt
+> All measurements are done when set at zero position.
+
+* Use printed measurement tool for Z belt
+* Use phone app to measure X axis belt to ~95Hz [^1] [^2]
+* Use phone app to measure Y axis belt to ~115Hz [^1] [^2]
 
 ## Extruder
 
@@ -52,3 +54,7 @@ Every **TODO** interval perform a full cleaning procedure:
     1. Perform automatic bed tramming with wizard
     2. Perform a probe alignment (optional, but recommended)
     3. Re-run bed mesh calibration
+
+
+[^1]: https://benchtopmachineshop.blogspot.com/2019/04/printer-belt-tension.html?m=1
+[^2]: https://www.fxsolver.com/browse/formulas/Frequency+of+a+string+under+tension+%28nth+harmonic%29
