@@ -34,3 +34,4 @@ Tested optimal values:
 | Creality Black (1000g)            |  142g  | [Photo](./photos/creality_black_1000g.jpeg)        |
 | Clas Ohslon (1000g)               |  138g  | [Photo](./photos/clasohlson_1000g.jpeg)            |
 | 3DNet Clear (1000g)               |  204g  | [Photo](./photos/3dnet_clear_1000g.jpeg)           |
+| PolyTerra Cardboard (1000g)       |  135g  | [Photo](./photos/polyterra_cardboard_1000g.jpeg)   |
