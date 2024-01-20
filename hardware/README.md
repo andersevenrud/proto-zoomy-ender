@@ -20,6 +20,7 @@ A Cartesian (aka "bed slinger") FFF/FDM 3D printer.
 * Extruder Acceleration: <=3000mm/s² (Optimal), ~8000mm/s² (Max)
 * Extrusion Force: 10kg (Max)
 * Retraction Speed: ~120mm/s (Max)
+* Heatup Time: Bed ~120s, Nozzle <60s (Ambient to PLA parameters)
 * Volumetric Flow
   * 20-30mm³/s (0.4mm V6/HF)
   * 30-50mm³/s (0.6mm Volcano/UHF)
