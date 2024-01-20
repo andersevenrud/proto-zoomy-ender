@@ -44,7 +44,10 @@ A Cartesian (aka "bed slinger") FFF/FDM 3D printer.
   * Bed: ~220W (Max)
   * Hotend: ~90W (Max)
   * Steppers: ~200W (Max)
-  * Total: ~360W (Max), <200W (While printing with PLA settings)
+  * Total: ~360W (Max)
+      * Idle: ~50W
+      * Ready: ~150W
+      * Printing: ~200W (PLA parameters)
 
 ## Parts
 
