@@ -11,8 +11,6 @@ Tested optimal values:
 
 > NB: eSun ABS+ Seems to have poor layer adhesion compared to regular ABS no matter what temperature it is printed at. Also it has 5-10C lower max serice temperature. It is easier to print though, but not reliable for parts that are under a lot of force.
 
-> NB: TPU filaments should have `Retract on layer change` **disabled** in the slicer.
-
 | Filament              | Temperature    | Speed     | Retraction    | Fan Speed | PA    | Extrusion |
 | --------------------- | -------------- | --------- | ------------- | --------- | ----- | --------- |
 | Generic PLA           | 205C /  60C    | 200mm/s   | 0.7 @ 100mm/s | <= 50%    | 0.050 | 100%      |

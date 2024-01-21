@@ -13,18 +13,20 @@ Example profile:
 
 > All acceleration control and values not mentioned are `0` (disabled)
 
+> Maximum flow is dependent on nozzle and filament (including temperature)
+
 ```
 Perimiters: P
-Small perimiters: 100% of P
-External perimiters: 85% of P
+Small perimiters: 90% of P
+External perimiters: 60% of P
 
 Infill: I
-Solid infill: 85% of I
+Solid infill: 90% of I
 Top solid infill: S
 
-Support material: 85% of P
-Bridges: 85% of P
-Gap fill: 50% of P
+Support material: 60% of P
+Bridges: 60% of P
+Gap fill: 60% of P
 
 Travel: T
 
@@ -144,9 +146,10 @@ Maximum E Jerk: 10
 
 ### Extruder
 
-> Firmware retraction!
+> Firmware retraction with exception of "Retract only on layer change"
+> that is filament dependent and slicer only.
 
 ```
 Minimum travel after retraction: 2
-Retract only on layer change: Yes
+Retract only on layer change: No
 ```
