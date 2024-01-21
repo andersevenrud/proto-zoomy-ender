@@ -35,9 +35,10 @@ Runs on Klipper firmware with the following features:
 ## TODO
 
 * Install Rapido Plus block (PT1000 / 500C max)
+* Calibrate Square Corner Velocity (`jerk * sqrt(2)`)
+* Custom `CANCEL_PRINT` gcode macro
+* Custom `M600` (automatic filament change) gcode macro
 * Create an Enraged Rabbit!
-* Custom `CANCEL_PRINT` gcode
-* Set up `M600` (automatic filament change) gcode
 
 [^1]: https://www.orbiterprojects.com/beltender-linear-rail-upgrade-for-ender-printers/
 [^2]: https://www.printables.com/model/39322-hero-me-gen-7-platform-release-4
