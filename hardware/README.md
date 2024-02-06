@@ -54,7 +54,7 @@ A Cartesian (aka "bed slinger") FFF/FDM 3D printer.
 > All custom parts was printed in ABS
 
 * **Frame**
-    * Creality stock Extrusions
+    * Creality stock frame
     * RatRig Cast 90 Degree Corner brackets
     * DIY Extrusion end caps
     * DIY Carrying handle
@@ -62,11 +62,10 @@ A Cartesian (aka "bed slinger") FFF/FDM 3D printer.
     * DIY Braces (Stiffeners) on Z axis (8mm rods)
 * **PSU**
     * Meanwell LRS-350-24 (24V, 350W)
-    * Stock fan
 * **Mainboard**
     * BTT SKR E3 v3 Mainboard (TMC2209)
     * Heatsinks on SoC and power converters
-    * Stock fan
+    * Sunon Maglev 4040 fan
 * **Bed**
     * Creality stock heated aluminum bed
     * Creativity Silicon solid mounts
