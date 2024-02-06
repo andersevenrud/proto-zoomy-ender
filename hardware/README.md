@@ -69,8 +69,8 @@ A Cartesian (aka "bed slinger") FFF/FDM 3D printer.
 * **Bed**
     * Creality stock heated aluminum bed
     * Creativity Silicon solid mounts
-    * Creativity Mini tramming wheels
     * Creativity Replacement lightweight frame
+    * Brass M4 thumb tramming nuts
     * 3M magnetic surface
         * Polyalkemi Smooth PEI Sheet
         * PrimaFlex Textured PEI Sheet
