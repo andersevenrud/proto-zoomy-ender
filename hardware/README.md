@@ -58,21 +58,15 @@ A Cartesian (aka "bed slinger") FFF/FDM 3D printer.
     * RatRig Cast 90 Degree Corner brackets
     * DIY Extrusion end caps
     * DIY Carrying handle
-    * DIY Raised feet w/anti-vibration (35mm)
     * DIY Cable drag chains (30deg)
     * DIY Braces (Stiffeners) on Z axis (8mm rods)
 * **PSU**
     * Meanwell LRS-350-24 (24V, 350W)
-    * Noctua NF-A8 FLX cooling fan (12V)
-    * DIY ventilated cover and 80mm fan support
-    * DIY 24V -> 12V DC Buck Converter
-        * Custom fan terminal PCB and case
-        * Noctua fan silencer adapters
+    * Stock fan
 * **Mainboard**
     * BTT SKR E3 v3 Mainboard (TMC2209)
-    * Noctua NF-A8 FLX cooling fan (12V)
     * Heatsinks on SoC and power converters
-    * DIY ventilated cover and 80mm fan support
+    * Stock fan
 * **Bed**
     * Creality stock heated aluminum bed
     * Creativity Silicon solid mounts
@@ -128,10 +122,3 @@ A Cartesian (aka "bed slinger") FFF/FDM 3D printer.
       * E3D V6 Nozzle-X 0.4mm (V6)
       * Phaetus Hardened Steel 0.4mm (V6)
       * Phaetus Hardened Steel 0.6mm (Volcano)
-* **Display**
-    * Makerbase MKS MINI12864 v3 Display
-        * Custom cable to convert EXT1 on mainboard to EXT1+EXT2 on display [^1] [^2]
-        * DIY Case with angled 4040 extrusion mount
-
-[^1]: https://github.com/bigtreetech/BIGTREETECH-SKR-mini-E3/issues/728#issuecomment-1736805084
-[^2]: https://github.com/makerbase-mks/MKS-MINI12864-V3/blob/main/hardware/Image/MKS_MINI12864_V3_PINOUT.png
