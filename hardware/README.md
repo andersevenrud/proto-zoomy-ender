@@ -121,3 +121,6 @@ A Cartesian (aka "bed slinger") FFF/FDM 3D printer.
       * E3D V6 Nozzle-X 0.4mm (V6)
       * Phaetus Hardened Steel 0.4mm (V6)
       * Phaetus Hardened Steel 0.6mm (Volcano)
+* **Host**
+    * Raspberry Pi 3B+
+        * 5V Buck Converter

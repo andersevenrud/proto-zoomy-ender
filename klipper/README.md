@@ -6,8 +6,6 @@ Setting up on bare metal debian is the way to go. https://github.com/th33xitus/k
 There are Docker setups out there, but the Klipper stuff ain't really designed to be run that way so it requires
 running privileged anyways, and has quite a lot of wonk.
 
-I'm running everything from a Lenovo T420s (2C/4T, 8G RAM, 120G SSD) with Openbox and Chromium in kiosk mode. I first tried a Pi with a 7" inch touch screen, but it felt kinda laggy even with the fastest possible SD card (or even USB SSD).
-
 ## Setup
 
 This was fairly staright forward. I found configuration samples for all my hardware via the official repos from Klipper (for factory E3v2), BTT (Pinout changes) and LDO (Orbiter extruder).
