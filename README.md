@@ -15,6 +15,7 @@ Main features:
 * High torque stepper motors and drivers
 * High flow extrusion
 * Highly efficient cooling
+* Runs on CAN bus
 * Fairly quiet
 
 Uses portions of designs from the following projects:
@@ -34,7 +35,7 @@ Runs on Klipper firmware with the following features:
 
 ## TODO
 
-* Install Rapido Plus block (PT1000 / 500C max)
+* Install Rapido Plus block (PT1000 / 350C max)
 * Calibrate Square Corner Velocity (`jerk * sqrt(2)`)
 * Custom `CANCEL_PRINT` gcode macro
 * Custom `M600` (automatic filament change) gcode macro

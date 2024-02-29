@@ -58,10 +58,11 @@ A Cartesian (aka "bed slinger") FFF/FDM 3D printer.
     * RatRig Cast 90 Degree Corner brackets
     * DIY Extrusion end caps
     * DIY Carrying handle
-    * DIY Cable drag chains (30deg)
     * DIY Braces (Stiffeners) on Z axis (8mm rods)
+    * DIY Cases for MCUs, power converters and boards
 * **PSU**
     * Meanwell LRS-350-24 (24V, 350W)
+    * KIS3R33S 5V Buck Converter
 * **Mainboard**
     * BTT SKR E3 v3 Mainboard (TMC2209)
     * Heatsinks on SoC and power converters
@@ -110,17 +111,21 @@ A Cartesian (aka "bed slinger") FFF/FDM 3D printer.
     * PlusReprap Bearings for gearbox
     * Custom belt system standoffs/mounts
 * **Toolhead**
+    * BTT EBB36A w/MAX31865 CAN (v1.2) (TMC2209)
     * LDO Orbiter Extruder (v2)
     * LDO Orbiter Filament Sensor (v2.2)
     * Antclabs BLTouch (v3.1)
     * Capricorn XS PTFE Tubes
-    * Sunon Maglev 4040 heatsink cooling fan
-    * Caizhu 5015 Brushless Dual Ball Bearing parst cooling fan (x2)
+    * SHCHV 25mm CAN board cooling fan (5V)
+    * Sunon Maglev 4040 extruder cooling fan
+    * Caizhu 5015 Brushless Dual Ball Bearing parts cooling fan (x2)
     * Siboor Filament Cleaner Clip
+    * Bondtech HeatLink adapters
     * Phaetus Rapido UHF (Volcano/V6)
       * E3D V6 Nozzle-X 0.4mm (V6)
       * Phaetus Hardened Steel 0.4mm (V6)
       * Phaetus Hardened Steel 0.6mm (Volcano)
 * **Host**
+    * BTT U2C CAN (v2.1)
     * Raspberry Pi 3B+
-        * 5V Buck Converter
+        * Sunon Maglev 4040 cooling fan
