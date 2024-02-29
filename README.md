@@ -35,6 +35,7 @@ Runs on Klipper firmware with the following features:
 
 ## TODO
 
+* Set up CANboot
 * Install Rapido Plus block (PT1000 / 350C max)
 * Calibrate Square Corner Velocity (`jerk * sqrt(2)`)
 * Custom `CANCEL_PRINT` gcode macro
