@@ -21,6 +21,7 @@ A Cartesian (aka "bed slinger") FFF/FDM 3D printer.
 * Extrusion Force: 10kg (Max)
 * Retraction Speed: ~120mm/s (Max)
 * Heatup Time: Bed ~120s, Nozzle <60s (Ambient to PLA parameters)
+* Communication: CAN bus (Toolhead), USB (Mainboard and Host)
 * Volumetric Flow
   * 20-30mm³/s (0.4mm V6/HF)
   * 30-50mm³/s (0.6mm Volcano/UHF)
@@ -60,13 +61,6 @@ A Cartesian (aka "bed slinger") FFF/FDM 3D printer.
     * DIY Carrying handle
     * DIY Braces (Stiffeners) on Z axis (8mm rods)
     * DIY Cases for MCUs, power converters and boards
-* **PSU**
-    * Meanwell LRS-350-24 (24V, 350W)
-    * KIS3R33S 5V Buck Converter
-* **Mainboard**
-    * BTT SKR E3 v3 Mainboard (TMC2209)
-    * Heatsinks on SoC and power converters
-    * Sunon Maglev 4040 fan
 * **Bed**
     * Creality stock heated aluminum bed
     * Creativity Silicon solid mounts
@@ -111,12 +105,10 @@ A Cartesian (aka "bed slinger") FFF/FDM 3D printer.
     * PlusReprap Bearings for gearbox
     * Custom belt system standoffs/mounts
 * **Toolhead**
-    * BTT EBB36A w/MAX31865 CAN (v1.2) (TMC2209)
     * LDO Orbiter Extruder (v2)
     * LDO Orbiter Filament Sensor (v2.2)
     * Antclabs BLTouch (v3.1)
     * Capricorn XS PTFE Tubes
-    * SHCHV 25mm CAN board cooling fan (5V)
     * Sunon Maglev 4040 extruder cooling fan
     * Caizhu 5015 Brushless Dual Ball Bearing parts cooling fan (x2)
     * Siboor Filament Cleaner Clip
@@ -125,7 +117,14 @@ A Cartesian (aka "bed slinger") FFF/FDM 3D printer.
       * E3D V6 Nozzle-X 0.4mm (V6)
       * Phaetus Hardened Steel 0.4mm (V6)
       * Phaetus Hardened Steel 0.6mm (Volcano)
-* **Host**
-    * BTT U2C CAN (v2.1)
-    * Raspberry Pi 3B+
+* **MCUs**
+    * BTT U2C CAN Bridge (v2.1)
+    * BTT EBB36 w/MAX31865 CAN (v1.2) (TMC2209)
+        * SHCHV 25mm CAN board cooling fan (5V)
+    * BTT SKR E3 v3 Mainboard (TMC2209)
         * Sunon Maglev 4040 cooling fan
+    * Raspberry Pi 3B+ Host
+        * Sunon Maglev 4040 cooling fan
+* **PSU**
+    * Meanwell LRS-350-24 (24V, 350W)
+    * KIS3R33S Buck Converter (5V, 15W)
