@@ -32,10 +32,11 @@ A Cartesian (aka "bed slinger") FFF/FDM 3D printer.
   * Z: Belt, Dual Linear Rails, 80:16 Gearbox
   * E: Direct Drive, 7.5:1 Gearbox
 * Cooling
-  * Parts: 8.172m³/h (x2)
-  * Hotend: 13.082m³/h
-  * Mainboard: 50.392m³/h
-  * PSU: 50.392m³/h
+  * Parts: 8.2m³/h (x2)
+  * Hotend: 13.1m³/h
+  * Mainboard: 7.0m³/h
+  * Toolhead: 4.0m³/h
+  * PSU: 10.0m³/h
 * Steppers
   * X: 1.8°, 55Ncm, 2.50A/Phase (Max)
   * Y: 1.8°, 55Ncm, 2.50A/Phase (Max)
