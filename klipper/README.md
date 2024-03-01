@@ -28,8 +28,10 @@ Then it was just a matter of combining these into a singular `printer.cfg` file 
     * `BLTOUCH_DEBUG COMMAND=pin_down`
     * `BLTOUCH_DEBUG COMMAND=touch_mode`
     * `QUERY_PROBE` Should report "open"
-    * Touching the probe lightly with a finger nail should make it retract
+    * Touching the probe lightly with a finger nail should make it go red
     * `QUERY_PROBE` Should report "triggered"
+  * Verify again, but with homing
+    * `G28`, but this time your finger nail should make it retract
 * Endstops and limits
   * `G28` To home all axes
   * Adjusting endstop positions so `0,0` nozzle position is at the correct location
