@@ -122,9 +122,9 @@ A Cartesian (aka "bed slinger") FFF/FDM 3D printer.
     * BTT EBB36 w/MAX31865 CAN (v1.2) (TMC2209)
         * SHCHV 25mm CAN board cooling fan (5V)
     * BTT SKR E3 v3 Mainboard (TMC2209)
-        * Sunon Maglev 4040 cooling fan
+        * Sunon Maglev 4020 cooling fan
     * Raspberry Pi 3B+ Host
-        * Sunon Maglev 4040 cooling fan
+        * Sunon Maglev 4010 cooling fan
 * **PSU**
     * Meanwell LRS-350-24 (24V, 350W)
     * KIS3R33S Buck Converter (5V, 15W)
