@@ -12,6 +12,19 @@ Connector on the U2C [^2]:
 
 ![u2c](./images/u2c.jpeg)
 
+## Interface
+
+Put the following into `/etc/network/interfaces.d/can0` and reboot:
+
+```
+allow-hotplug can0
+iface can0 can static
+ bitrate 250000
+ up ifconfig $IFACE txqueuelen 256
+ pre-up ip link set can0 type can bitrate 250000
+ pre-up ip link set can0 txqueuelen 256
+```
+
 ## Firmware
 
 The EBB module requires flashing. Inside the `~/klipper` directory.
