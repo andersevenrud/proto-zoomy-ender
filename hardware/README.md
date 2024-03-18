@@ -114,6 +114,7 @@ A Cartesian (aka "bed slinger") FFF/FDM 3D printer.
     * Caizhu 5015 Brushless Dual Ball Bearing parts cooling fan (x2)
     * Siboor Filament Cleaner Clip
     * Bondtech HeatLink adapters
+    * Neopixel LEDs for parts lighting
     * Phaetus Rapido UHF (Volcano/V6)
       * E3D V6 Nozzle-X 0.4mm (V6)
       * Phaetus Hardened Steel 0.4mm (V6)
