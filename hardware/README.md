@@ -62,6 +62,7 @@ A Cartesian (aka "bed slinger") FFF/FDM 3D printer.
     * DIY Carrying handle
     * DIY Braces (Stiffeners) on Z axis (8mm rods)
     * DIY Cases for MCUs, power converters and boards
+    * DIY Nozzle Wiper
 * **Bed**
     * Creality stock heated aluminum bed
     * Creativity Silicon solid mounts
