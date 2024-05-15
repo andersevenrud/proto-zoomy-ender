@@ -44,7 +44,7 @@ A Cartesian (aka "bed slinger") FFF/FDM 3D printer.
   * E: 1.8°, 10Ncm, 1.20A/Phase (Max)
 * Power Draw
   * Bed: ~220W (Max)
-  * Hotend: ~90W (Max)
+  * Hotend: ~115W (Max)
   * Steppers: ~200W (Max)
   * Total: ~360W (Max)
       * Idle: ~50W
