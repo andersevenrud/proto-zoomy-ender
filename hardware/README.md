@@ -32,11 +32,11 @@ A Cartesian (aka "bed slinger") FFF/FDM 3D printer.
   * Z: Belt, Dual Linear Rails, 80:16 Gearbox
   * E: Direct Drive, 7.5:1 Gearbox
 * Cooling
-  * Parts: 8.2m³/h (x2)
-  * Hotend: 13.1m³/h
-  * Mainboard: 7.0m³/h
-  * Toolhead: 4.0m³/h
-  * PSU: 10.0m³/h
+  * Parts: 25m³/h, 6.5kpa (Max)
+  * Hotend: 13.1m³/h (Max)
+  * Mainboard: 7.0m³/h (Max)
+  * Toolhead: 4.0m³/h (Max)
+  * PSU: 10.0m³/h (Max)
 * Steppers
   * X: 1.8°, 55Ncm, 2.50A/Phase (Max)
   * Y: 1.8°, 55Ncm, 2.50A/Phase (Max)
@@ -46,6 +46,7 @@ A Cartesian (aka "bed slinger") FFF/FDM 3D printer.
   * Bed: ~220W (Max)
   * Hotend: ~115W (Max)
   * Steppers: ~200W (Max)
+  * Cooling: 80W (Max)
   * Total: ~360W (Max)
       * Idle: ~50W
       * Ready: ~150W
@@ -112,10 +113,10 @@ A Cartesian (aka "bed slinger") FFF/FDM 3D printer.
     * Antclabs BLTouch (v3.1)
     * Capricorn XS PTFE Tubes
     * Sunon Maglev 4040 extruder cooling fan
-    * Caizhu 5015 Brushless Dual Ball Bearing parts cooling fan (x2)
     * Siboor Filament Cleaner Clip
     * Bondtech HeatLink adapters
     * Neopixel LEDs for parts lighting
+    * Mellow 15mm ID CPAP Pipe
     * Phaetus Rapido UHF (Volcano/V6)
       * E3D V6 Nozzle-X 0.4mm (V6)
       * Phaetus Hardened Steel 0.4mm (V6)
@@ -128,6 +129,8 @@ A Cartesian (aka "bed slinger") FFF/FDM 3D printer.
         * Sunon Maglev 4020 cooling fan
     * Raspberry Pi 3B+ Host
         * Sunon Maglev 4010 cooling fan
+* **Misc**
+    * Mellow WS7040 24V CPAP Blower fan (remote cooling)
 * **PSU**
     * Meanwell LRS-350-24 (24V, 350W)
     * KIS3R33S Buck Converter (5V, 15W)

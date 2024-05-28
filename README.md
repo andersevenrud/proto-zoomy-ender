@@ -8,15 +8,12 @@ A repository for one of my personal 3D printers used as a learning/research proj
 
 Main features:
 
-* Prints pretty much any filament
-* High speeds and acceleration
-* Magnetic bed sheets and level probe
-* Linear rails and accurate belt systems
-* High torque stepper motors and drivers
-* High flow extrusion
-* Highly efficient cooling
-* Runs on CAN bus
-* Fairly quiet
+* Linear rails with belt drive on all axes
+* High torque stepper motors
+* High flow direct drive extruder system
+* CPAP cooling
+* CAN bus communication
+* Compatible with most filaments
 
 Uses portions of designs from the following projects:
 
