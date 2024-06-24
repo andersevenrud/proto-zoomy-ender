@@ -118,7 +118,8 @@ A Cartesian (aka "bed slinger") FFF/FDM 3D printer.
     * Neopixel LEDs for parts lighting
     * Mellow 15mm ID CPAP Pipe
     * Phaetus Rapido UHF (Volcano/V6)
-      * E3D V6 Nozzle-X 0.4mm (V6)
+      * E3D Nozzle-X 0.4mm (V6)
+      * Bondtech CHT BiMetal 0.4mm (V6)
       * Phaetus Hardened Steel 0.4mm (V6)
       * Phaetus Hardened Steel 0.6mm (Volcano)
 * **MCUs**
