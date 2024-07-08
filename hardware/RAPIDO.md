@@ -7,12 +7,16 @@ and requires custom cirtuitry to read the values correctly.
 
 ### Regular
 
+> Uses a fairly standard 100k NTC thermistor
+
 ```
 sensor_type: ATC Semitec 104NT-4-R025H42G
 max_temp: 290
 ```
 
 ### Plus
+
+> Uses a PT1000 type thermistor
 
 ```
 sensor_type: MAX31865
