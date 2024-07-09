@@ -30,6 +30,10 @@ Runs on Klipper firmware with the following features:
 * Object Exclusion
 * Custom Filament Macros
 
+Demos:
+
+* [10 min benchy](https://www.youtube.com/watch?v=wyJpjxVNcEQ)
+
 ## TODO
 
 * Set up CANboot
