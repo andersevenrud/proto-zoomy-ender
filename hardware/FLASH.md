@@ -9,11 +9,7 @@ but that is not covered here. The instrutions are the same, except the FLASH_DEV
 ## Host
 
 ```bash
-KCONFIG_CONFIG=config.host make menuconfig
-
-KCONFIG_CONFIG=config.host make clean
-KCONFIG_CONFIG=config.host make
-KCONFIG_CONFIG=config.host make flash
+make KCONFIG_CONFIG=config.host menuconfig
 ```
 
 ```menuconfig
@@ -21,16 +17,18 @@ KCONFIG_CONFIG=config.host make flash
     Micro-controller Architecture (Linux process)  --->
 ```
 
+```bash
+make KCONFIG_CONFIG=config.host clean
+make KCONFIG_CONFIG=config.host
+make KCONFIG_CONFIG=config.host flash
+```
+
 ## BTT SKR E3 v3
 
 > Use SD card to flash firmware.
 
 ```bash
-KCONFIG_CONFIG=config.skre3v3 make menuconfig
-
-KCONFIG_CONFIG=config.skre3v3 make clean
-KCONFIG_CONFIG=config.skre3v3 make
-cp out/klipper.bin /mnt/sd-card/firmware.bin
+make KCONFIG_CONFIG=config.skre3v3 menuconfig
 ```
 
 ```menuconfig
@@ -44,6 +42,12 @@ cp out/klipper.bin /mnt/sd-card/firmware.bin
 ()  GPIO pins to set at micro-controller startup
 ```
 
+```bash
+make KCONFIG_CONFIG=config.skre3v3 clean
+make KCONFIG_CONFIG=config.skre3v3
+cp out/klipper.bin /mnt/sd-card/firmware.bin
+```
+
 ## BTT EBB36
 
 > Put the device into USB mode and set VUSB jumper.
@@ -54,10 +58,6 @@ cp out/klipper.bin /mnt/sd-card/firmware.bin
 
 ```bash
 make KCONFIG_CONFIG=config.ebb36 menuconfig
-
-make KCONFIG_CONFIG=config.ebb36 clean
-make KCONFIG_CONFIG=config.ebb36
-make KCONFIG_CONFIG=config.ebb36 flash FLASH_DEVICE=0483:df11
 ```
 
 ```menuconfig
@@ -71,14 +71,16 @@ make KCONFIG_CONFIG=config.ebb36 flash FLASH_DEVICE=0483:df11
 ()  GPIO pins to set at micro-controller startup (NEW)
 ```
 
+```bash
+make KCONFIG_CONFIG=config.ebb36 clean
+make KCONFIG_CONFIG=config.ebb36
+make KCONFIG_CONFIG=config.ebb36 flash FLASH_DEVICE=0483:df11
+```
+
 ## BTT Eddy
 
 ```bash
 make KCONFIG_CONFIG=config.eddy menuconfig
-
-make KCONFIG_CONFIG=config.eddy clean
-make KCONFIG_CONFIG=config.eddy
-make KCONFIG_CONFIG=config.eddy flash FLASH_DEVICE=0000:0000
 ```
 
 ```menuconfig
@@ -91,16 +93,18 @@ make KCONFIG_CONFIG=config.eddy flash FLASH_DEVICE=0000:0000
 ()  GPIO pins to set at micro-controller startup
 ```
 
+```bash
+make KCONFIG_CONFIG=config.eddy clean
+make KCONFIG_CONFIG=config.eddy
+make KCONFIG_CONFIG=config.eddy flash FLASH_DEVICE=0000:0000
+```
+
 ## Fly ADXL
 
 > Hold down the button on the board before inserting USB cable to enter flash mode.
 
 ```bash
 make KCONFIG_CONFIG=config.adxl345 menuconfig
-
-make KCONFIG_CONFIG=config.adxl345 clean
-make KCONFIG_CONFIG=config.adxl345
-make KCONFIG_CONFIG=config.adxl345 flash FLASH_DEVICE=2e8a:0003
 ```
 
 ```menuconfig
@@ -111,4 +115,10 @@ make KCONFIG_CONFIG=config.adxl345 flash FLASH_DEVICE=2e8a:0003
     Communication Interface (USBSERIAL)  --->
     USB ids  --->
 ()  GPIO pins to set at micro-controller startup
+```
+
+```bash
+make KCONFIG_CONFIG=config.adxl345 clean
+make KCONFIG_CONFIG=config.adxl345
+make KCONFIG_CONFIG=config.adxl345 flash FLASH_DEVICE=2e8a:0003
 ```
