@@ -53,11 +53,11 @@ cp out/klipper.bin /mnt/sd-card/firmware.bin
 > See [CAN.md](CANBus) for additional information.
 
 ```bash
-KCONFIG_CONFIG=config.ebb36 make menuconfig
+make KCONFIG_CONFIG=config.ebb36 menuconfig
 
-KCONFIG_CONFIG=config.ebb36 make clean
-KCONFIG_CONFIG=config.ebb36 make
-KCONFIG_CONFIG=config.ebb36 make flash FLASH_DEVICE=0483:df11
+make KCONFIG_CONFIG=config.ebb36 clean
+make KCONFIG_CONFIG=config.ebb36
+make KCONFIG_CONFIG=config.ebb36 flash FLASH_DEVICE=0483:df11
 ```
 
 ```menuconfig
@@ -74,11 +74,11 @@ KCONFIG_CONFIG=config.ebb36 make flash FLASH_DEVICE=0483:df11
 ## BTT Eddy
 
 ```bash
-KCONFIG_CONFIG=config.eddy make menuconfig
+make KCONFIG_CONFIG=config.eddy menuconfig
 
-KCONFIG_CONFIG=config.eddy make clean
-KCONFIG_CONFIG=config.eddy make
-KCONFIG_CONFIG=config.eddy make flash FLASH_DEVICE=0000:0000
+make KCONFIG_CONFIG=config.eddy clean
+make KCONFIG_CONFIG=config.eddy
+make KCONFIG_CONFIG=config.eddy flash FLASH_DEVICE=0000:0000
 ```
 
 ```menuconfig
@@ -96,17 +96,18 @@ KCONFIG_CONFIG=config.eddy make flash FLASH_DEVICE=0000:0000
 > Hold down the button on the board before inserting USB cable to enter flash mode.
 
 ```bash
-KCONFIG_CONFIG=config.adxl345 make menuconfig
+make KCONFIG_CONFIG=config.adxl345 menuconfig
 
-KCONFIG_CONFIG=config.adxl345 make clean
-KCONFIG_CONFIG=config.adxl345 make
-KCONFIG_CONFIG=config.adxl345 make flash FLASH_DEVICE=2e8a:0003
+make KCONFIG_CONFIG=config.adxl345 clean
+make KCONFIG_CONFIG=config.adxl345
+make KCONFIG_CONFIG=config.adxl345 flash FLASH_DEVICE=2e8a:0003
 ```
 
 ```menuconfig
 [*] Enable extra low-level configuration options
     Micro-controller Architecture (Raspberry Pi RP2040)  --->
-    Bootloader offset (16KiB bootloader)  --->
+    Bootloader offset (No bootloader)  --->
+    Flash chip (W25Q080 with CLKDIV 2)  --->
     Communication Interface (USBSERIAL)  --->
     USB ids  --->
 ()  GPIO pins to set at micro-controller startup
