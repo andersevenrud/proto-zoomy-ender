@@ -4,7 +4,7 @@ General information about setting up the Mellow 7040 CPAP & Controller on Klippe
 
 ## Wiring
 
-![control board](./images/cpap.jpeg)
+![control board](./images/cpap.jpg)
 
 ### Printer mainboard
 
