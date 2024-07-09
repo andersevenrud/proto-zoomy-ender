@@ -7,6 +7,7 @@ Related documentation:
 * [Flashing](./FLASH.md)
 * [CANBus](./CAN.md)
 * [Phaetus Rapido Hotend](./RAPIDO.md)
+* [CPAP Cooling](./CPAP.md)
 * [Resonance](./RESONANCE.md)
 * [Maintenance](./MAINTENANCE.md)
 
