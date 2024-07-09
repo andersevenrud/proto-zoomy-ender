@@ -1,10 +1,26 @@
 # Resonances
 
-Measured using ADXL345 over SPI on a Pico running as separate MCU.
+Printer rests on a 35mm thick concrete slab with a 20mm thick foam dampening sheet.
 
-> Printer rests on a 35mm thick concrete slab with a 20mm thick foam dampening sheet.
+Measured using a Fly ADXL345 accelerometer over USB-C.
 
-## X-Axis
+## Findings
+
+Problematic points on my setup:
+
+* The BLTouch pin rattles and causes some resonances <100Hz
+* Many 5015 fans creates a lot of rattle and resonances over a wide area
+* The accelerometer on the EBB36 is extremely noisy even with no fans running
+
+And just in general:
+
+* Hand-made accelerometers needs really short twisted pairs to the host board to be effective
+* The orientation does not matter because Klipper will sum all the axes
+* It does not really matter where it's placed, but it should be as close to center/nozzle as possible
+
+## Measurements
+
+### X-Axis
 
 ![shaper_calibrate_x](./images/shaper_calibrate_x.png)
 
@@ -22,7 +38,7 @@ To avoid too much smoothing with '3hump_ei', suggested max_accel <= 6700 mm/sec^
 Recommended shaper is ei @ 126.2 Hz
 ```
 
-## Y-Axis
+### Y-Axis
 
 ![shaper_calibrate_y](./images/shaper_calibrate_y.png)
 
