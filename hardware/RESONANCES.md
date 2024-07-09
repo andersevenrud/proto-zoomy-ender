@@ -6,7 +6,7 @@ Measured using ADXL345 over SPI on a Pico running as separate MCU.
 
 ## X-Axis
 
-![shaper_calibrate_x](./shaper_calibrate_x.png)
+![shaper_calibrate_x](./images/shaper_calibrate_x.png)
 
 ```
 Fitted shaper 'zv' frequency = 132.8 Hz (vibrations = 16.6%, smoothing ~= 0.014)
@@ -24,7 +24,7 @@ Recommended shaper is ei @ 126.2 Hz
 
 ## Y-Axis
 
-![shaper_calibrate_y](./shaper_calibrate_y.png)
+![shaper_calibrate_y](./images/shaper_calibrate_y.png)
 
 ```
 Fitted shaper 'zv' frequency = 43.8 Hz (vibrations = 6.9%, smoothing ~= 0.085)
