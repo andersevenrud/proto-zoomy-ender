@@ -54,7 +54,7 @@ cp out/klipper.bin /mnt/sd-card/firmware.bin
 > DISCONNECT THE 24V power supply before powering up!
 > To flash hold down BOOT button and press RST to enter DFU mode.
 
-> See [CAN.md](CANBus) for additional information.
+> See [./CAN.md](CANBus) for additional information.
 
 ```bash
 make KCONFIG_CONFIG=config.ebb36 menuconfig
