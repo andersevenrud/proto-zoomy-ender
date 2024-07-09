@@ -48,7 +48,7 @@ make KCONFIG_CONFIG=config.skre3v3
 cp out/klipper.bin /mnt/sd-card/firmware.bin
 ```
 
-## BTT EBB36
+## BTT EBB36 v1.2
 
 > Put the device into USB mode and set VUSB jumper.
 > DISCONNECT THE 24V power supply before powering up!
@@ -77,7 +77,7 @@ make KCONFIG_CONFIG=config.ebb36
 make KCONFIG_CONFIG=config.ebb36 flash FLASH_DEVICE=0483:df11
 ```
 
-## BTT Eddy
+## BTT Eddy Coild (i2c)
 
 ```bash
 make KCONFIG_CONFIG=config.eddy menuconfig
@@ -99,7 +99,7 @@ make KCONFIG_CONFIG=config.eddy
 make KCONFIG_CONFIG=config.eddy flash FLASH_DEVICE=0000:0000
 ```
 
-## Fly ADXL
+## Fly ADXL345 (USB)
 
 > Hold down the button on the board before inserting USB cable to enter flash mode.
 
