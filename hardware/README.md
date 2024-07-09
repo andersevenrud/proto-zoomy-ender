@@ -2,6 +2,14 @@
 
 A Cartesian (aka "bed slinger") FFF/FDM 3D printer.
 
+Related documentation:
+
+* [Flashing](./FLASH.md)
+* [CANBus](./CAN.md)
+* [Phaetus Rapido Hotend](./RAPIDO.md)
+* [Resonance](./RESONANCE.md)
+* [Maintenance](./MAINTENANCE.md)
+
 ## Specs
 
 * Weight: ~10kg
