@@ -3,7 +3,7 @@
 Using the BTT EBB36 v1.2 and BTT U2C v2.1.
 
 > **NB**: A lot of documentation says to configure for 1500000 baud rate,
-> but according to the official spesifications this should be 250000!
+> but according to the official spesifications this should be **250000**!
 
 ## Hardware
 
@@ -66,6 +66,9 @@ Then flash the build with:
 > the output says `File downloaded successfully` everything is OK.
 
 ```bash
+make flash FLASH_DEVICE=0483:df11
+
+# Or alternatively with dfu-util
 sudo dfu-util -d ,0483:df11 -R -a 0 -s 0x8000000:leave -D out/klipper.bin
 ```
 
