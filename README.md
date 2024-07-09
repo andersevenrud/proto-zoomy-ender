@@ -4,6 +4,8 @@ A repository for one of my personal 3D printers used as a learning/research proj
 
 > Originally a Creality Ender 3 (v2) I got super cheap second hand.
 
+![photo](./photo.jpeg)
+
 ## About
 
 Main features:
